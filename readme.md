@@ -1,4 +1,4 @@
-# How to use
+# Devlopment
 
 First we need to install [Degit](https://github.com/Rich-Harris/degit) to do that
 
