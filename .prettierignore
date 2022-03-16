@@ -1,0 +1,3 @@
+# ignore vendors
+src/css/vendors
+src/js/vendors
