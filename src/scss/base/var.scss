@@ -1,0 +1,51 @@
+
+
+// css vars start
+
+:root {
+	--brand: hsl(133, 100%, 54%);
+	--brand-light: hsl(133, 100%, 54%);
+	--brand-dark: hsl(155, 100%, 40%);
+	--text:hsl(0, 0%, 19%);
+	--text-black: hsl(0, 0%, 19%);
+	--text-white: hsl(0, 6%, 100%);
+	--black: #000000;
+	--white: #ffffff;
+	--body: #ffffff;
+	--body-light: #ffffff;
+	--body-dark: #141414;
+	--menu:#ffffff;
+	--menu-light:#ffffff;
+	--menu-dark:#141414;
+	// --clr-foreground: hsl(0 0% 0%);
+	// --clr-background: hsl(0 0% 100%);
+}
+
+:root {
+	color-scheme: light;
+	/* set defaults */
+	--brand: var(--brand-light);
+	--text: var(--text-black);
+	--black: var(--black);
+	--white: var(--white);
+	--body: var(--body-light);
+	--menu:var(--menu-light);
+	--clr-foreground: hsl(0 0% 0%);
+	--clr-background: hsl(0 0% 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+		--brand: var(--brand-dark);
+		--text: var(--text-white);
+		--black: var(--black);
+		--white: var(--white);
+		--body: var(--body-dark);
+		--menu: var(--menu-dark);
+		--clr-foreground: hsl(0 0% 0%);
+		--clr-background: hsl(0 0% 100%);
+	}
+}
+
+// css vars end
