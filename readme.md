@@ -1,12 +1,19 @@
 # Development
 
-First we need to install globally [Degit](https://github.com/Rich-Harris/degit) to do that
+First we need to install [Degit](https://github.com/Rich-Harris/degit) globally to do that
 
-` npm install -g degit `
+open up your terminal and type or copy
 
-open up your terminal and type degit 
+``` 
+npm install -g degit
 
-` degit shafschwd/webdev-temp `
+```
+
+after installing type or copy
+
+```
+degit shafschwd/webdev-temp
+```
 
 then open up your terminal install the dependecies with 
 
@@ -16,7 +23,7 @@ then open up your terminal install the dependecies with
  npm i
  ```
  
- thats it now you can use it how ever you like
+ And done 🎉
  
  #### Available npm Scripts
 
